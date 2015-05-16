@@ -1,7 +1,7 @@
 '.source.js':
 
     'Ext.define':
-        'prefix': 'class'
+        'prefix': 'classdefine'
         'body': """
             Ext.define('${1:classname}', {
 
