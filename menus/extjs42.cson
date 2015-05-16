@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle extjs42'
+      'command': 'extjs42:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'extjs42'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'extjs42:toggle'
+        }
+      ]
+    ]
+  }
+]

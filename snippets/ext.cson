@@ -1,0 +1,52 @@
+'.source.js':
+
+    'Ext.define':
+        'prefix': 'class'
+        'body': """
+            Ext.define('${1:classname}', {
+
+                extend: '${2:parent}',
+
+                inject: {
+                    logger: 'logger'
+                },
+
+                loggerName: '${1:classname}',
+
+                constructor: function(config) {
+                    this.initConfig(config);
+                    this.callParent(arguments);
+                }
+            });"""
+
+    'Ext.create':
+        'prefix': 'create'
+        'body': """
+            Ext.create('${1:classname}', {${2:config}});"""
+
+    'Ext.isDefined':
+        'prefix': 'isdefined'
+        'body': """Ext.isDefined(${1:value})"""
+
+    'Constructor':
+        'prefix': 'con'
+        'body': """
+            constructor: function(config) {
+                this.initConfig(config);
+                this.callParent(arguments);
+            }"""
+
+    'initComponent':
+        'prefix': 'initc'
+        'body': """
+            initComponent: function() {
+                this.callParent(arguments);
+            }"""
+
+    'This Me':
+        'prefix': 'me'
+        'body': 'var me = this;'
+
+    'Logger debug':
+        'prefix': 'ldebug'
+        'body': 'this.logger.debug(${1:msg});'

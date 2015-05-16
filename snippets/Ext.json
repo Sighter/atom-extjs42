@@ -1,0 +1,440 @@
+{
+    ".source.js": {
+        "Ext.apply()": {
+            "body": "Ext.apply(${1:object}, ${2:config}, ${3:[defaults]})", 
+            "prefix": "Ext_apply"
+        }, 
+        "Ext.getScrollbarSize()": {
+            "body": "Ext.getScrollbarSize(${1:[force]})", 
+            "prefix": "Ext_getScrollbarSize"
+        }, 
+        "Ext.getUniqueGlobalNamespace()": {
+            "body": "Ext.getUniqueGlobalNamespace(${1:})", 
+            "prefix": "Ext_getUniqueGlobalNamespace"
+        }, 
+        "Ext.getDom()": {
+            "body": "Ext.getDom(${1:el})", 
+            "prefix": "Ext_getDom"
+        }, 
+        "Ext.destroyMembers()": {
+            "body": "Ext.destroyMembers(${1:o}, ${2:args})", 
+            "prefix": "Ext_destroyMembers"
+        }, 
+        "Ext.widget()": {
+            "body": "Ext.widget(${1:[name]}, ${2:[config]})", 
+            "prefix": "Ext_widget"
+        }, 
+        "Ext.addBehaviors()": {
+            "body": "Ext.addBehaviors(${1:obj})", 
+            "prefix": "Ext_addBehaviors"
+        }, 
+        "Ext.applyIf()": {
+            "body": "Ext.applyIf(${1:object}, ${2:config})", 
+            "prefix": "Ext_applyIf"
+        }, 
+        "Ext.toSentence()": {
+            "body": "Ext.toSentence(${1:items}, ${2:connector})", 
+            "prefix": "Ext_toSentence"
+        }, 
+        "Ext.sum()": {
+            "body": "Ext.sum(${1:array})", 
+            "prefix": "Ext_sum"
+        }, 
+        "Ext.isDate()": {
+            "body": "Ext.isDate(${1:object})", 
+            "prefix": "Ext_isDate"
+        }, 
+        "Ext.pluck()": {
+            "body": "Ext.pluck(${1:array}, ${2:propertyName})", 
+            "prefix": "Ext_pluck"
+        }, 
+        "Ext.isNumeric()": {
+            "body": "Ext.isNumeric(${1:value})", 
+            "prefix": "Ext_isNumeric"
+        }, 
+        "Ext.getNamespace()": {
+            "body": "Ext.getNamespace(${1:className})", 
+            "prefix": "Ext_getNamespace"
+        }, 
+        "Ext.create()": {
+            "body": "Ext.create(${1:[name]}, ${2:[args]})", 
+            "prefix": "Ext_create"
+        }, 
+        "Ext.isString()": {
+            "body": "Ext.isString(${1:value})", 
+            "prefix": "Ext_isString"
+        }, 
+        "Ext.num()": {
+            "body": "Ext.num(${1:value}, ${2:defaultValue})", 
+            "prefix": "Ext_num"
+        }, 
+        "Ext.typeOf()": {
+            "body": "Ext.typeOf(${1:value})", 
+            "prefix": "Ext_typeOf"
+        }, 
+        "Ext.toArray()": {
+            "body": "Ext.toArray(${1:iterable}, ${2:[start]}, ${3:[end]})", 
+            "prefix": "Ext_toArray"
+        }, 
+        "Ext.escapeRe()": {
+            "body": "Ext.escapeRe(${1:str})", 
+            "prefix": "Ext_escapeRe"
+        }, 
+        "Ext.createByAlias()": {
+            "body": "Ext.createByAlias(${1:alias}, ${2:args})", 
+            "prefix": "Ext_createByAlias"
+        }, 
+        "Ext.getDetachedBody()": {
+            "body": "Ext.getDetachedBody(${1:})", 
+            "prefix": "Ext_getDetachedBody"
+        }, 
+        "Ext.exclude()": {
+            "body": "Ext.exclude(${1:excludes})", 
+            "prefix": "Ext_exclude"
+        }, 
+        "Ext.query()": {
+            "body": "Ext.query(${1:path}, ${2:[root]}, ${3:[type]}, ${4:[single]})", 
+            "prefix": "Ext_query"
+        }, 
+        "Ext.removeNode()": {
+            "body": "Ext.removeNode(${1:node})", 
+            "prefix": "Ext_removeNode"
+        }, 
+        "Ext.select()": {
+            "body": "Ext.select(${1:selector}, ${2:[unique]})", 
+            "prefix": "Ext_select"
+        }, 
+        "Ext.bind()": {
+            "body": "Ext.bind(${1:fn}, ${2:[scope]}, ${3:[args]}, ${4:[appendArgs]})", 
+            "prefix": "Ext_bind"
+        }, 
+        "Ext.isNumber()": {
+            "body": "Ext.isNumber(${1:value})", 
+            "prefix": "Ext_isNumber"
+        }, 
+        "Ext.valueFrom()": {
+            "body": "Ext.valueFrom(${1:value}, ${2:defaultValue}, ${3:[allowBlank]})", 
+            "prefix": "Ext_valueFrom"
+        }, 
+        "Ext.un()": {
+            "body": "Ext.un(${1:eventName}, ${2:fn}, ${3:[scope]})", 
+            "prefix": "Ext_un"
+        }, 
+        "Ext.urlAppend()": {
+            "body": "Ext.urlAppend(${1:url}, ${2:string})", 
+            "prefix": "Ext_urlAppend"
+        }, 
+        "Ext.extend()": {
+            "body": "Ext.extend(${1:superclass}, ${2:overrides})", 
+            "prefix": "Ext_extend"
+        }, 
+        "Ext.require()": {
+            "body": "Ext.require(${1:expressions}, ${2:[fn]}, ${3:[scope]}, ${4:[excludes]})", 
+            "prefix": "Ext_require"
+        }, 
+        "Ext.coerce()": {
+            "body": "Ext.coerce(${1:from}, ${2:to})", 
+            "prefix": "Ext_coerce"
+        }, 
+        "Ext.preg()": {
+            "body": "Ext.preg(${1:ptype}, ${2:cls})", 
+            "prefix": "Ext_preg"
+        }, 
+        "Ext.isElement()": {
+            "body": "Ext.isElement(${1:value})", 
+            "prefix": "Ext_isElement"
+        }, 
+        "Ext.copyTo()": {
+            "body": "Ext.copyTo(${1:dest}, ${2:source}, ${3:names}, ${4:[usePrototypeKeys]})", 
+            "prefix": "Ext_copyTo"
+        }, 
+        "Ext.namespace()": {
+            "body": "Ext.namespace(${1:namespaces})", 
+            "prefix": "Ext_namespace"
+        }, 
+        "Ext.getCmp()": {
+            "body": "Ext.getCmp(${1:id})", 
+            "prefix": "Ext_getCmp"
+        }, 
+        "Ext.onReady()": {
+            "body": "Ext.onReady(${1:fn}, ${2:scope}, ${3:options})", 
+            "prefix": "Ext_onReady"
+        }, 
+        "Ext.suspendLayouts()": {
+            "body": "Ext.suspendLayouts(${1:})", 
+            "prefix": "Ext_suspendLayouts"
+        }, 
+        "Ext.max()": {
+            "body": "Ext.max(${1:array}, ${2:[comparisonFn]})", 
+            "prefix": "Ext_max"
+        }, 
+        "Ext.urlDecode()": {
+            "body": "Ext.urlDecode(${1:queryString}, ${2:[recursive]})", 
+            "prefix": "Ext_urlDecode"
+        }, 
+        "Ext.destroy()": {
+            "body": "Ext.destroy(${1:args})", 
+            "prefix": "Ext_destroy"
+        }, 
+        "Ext.each()": {
+            "body": "Ext.each(${1:iterable}, ${2:fn}, ${3:[scope]}, ${4:[reverse]})", 
+            "prefix": "Ext_each"
+        }, 
+        "Ext.defer()": {
+            "body": "Ext.defer(${1:fn}, ${2:millis}, ${3:[scope]}, ${4:[args]}, ${5:[appendArgs]})", 
+            "prefix": "Ext_defer"
+        }, 
+        "Ext.resumeLayouts()": {
+            "body": "Ext.resumeLayouts(${1:flush})", 
+            "prefix": "Ext_resumeLayouts"
+        }, 
+        "Ext.setGlyphFontFamily()": {
+            "body": "Ext.setGlyphFontFamily(${1:fontFamily})", 
+            "prefix": "Ext_setGlyphFontFamily"
+        }, 
+        "Ext.collectNamespaces()": {
+            "body": "Ext.collectNamespaces(${1:paths})", 
+            "prefix": "Ext_collectNamespaces"
+        }, 
+        "Ext.htmlEncode()": {
+            "body": "Ext.htmlEncode(${1:value})", 
+            "prefix": "Ext_htmlEncode"
+        }, 
+        "Ext.mean()": {
+            "body": "Ext.mean(${1:array})", 
+            "prefix": "Ext_mean"
+        }, 
+        "Ext.fly()": {
+            "body": "Ext.fly(${1:dom}, ${2:[named]})", 
+            "prefix": "Ext_fly"
+        }, 
+        "Ext.value()": {
+            "body": "Ext.value(${1:value}, ${2:defaultValue}, ${3:[allowBlank]})", 
+            "prefix": "Ext_value"
+        }, 
+        "Ext.isPrimitive()": {
+            "body": "Ext.isPrimitive(${1:value})", 
+            "prefix": "Ext_isPrimitive"
+        }, 
+        "Ext.isEmpty()": {
+            "body": "Ext.isEmpty(${1:value}, ${2:[allowEmptyString]})", 
+            "prefix": "Ext_isEmpty"
+        }, 
+        "Ext.merge()": {
+            "body": "Ext.merge(${1:destination}, ${2:object})", 
+            "prefix": "Ext_merge"
+        }, 
+        "Ext.clearNamespaces()": {
+            "body": "Ext.clearNamespaces(${1:})", 
+            "prefix": "Ext_clearNamespaces"
+        }, 
+        "Ext.flatten()": {
+            "body": "Ext.flatten(${1:array})", 
+            "prefix": "Ext_flatten"
+        }, 
+        "Ext.isSimpleObject()": {
+            "body": "Ext.isSimpleObject(${1:value})", 
+            "prefix": "Ext_isSimpleObject"
+        }, 
+        "Ext.application()": {
+            "body": "Ext.application(${1:config})", 
+            "prefix": "Ext_application"
+        }, 
+        "Ext.getDoc()": {
+            "body": "Ext.getDoc(${1:})", 
+            "prefix": "Ext_getDoc"
+        }, 
+        "Ext.regModel()": {
+            "body": "Ext.regModel(${1:name}, ${2:config})", 
+            "prefix": "Ext_regModel"
+        }, 
+        "Ext.invoke()": {
+            "body": "Ext.invoke(${1:arr}, ${2:methodName}, ${3:args})", 
+            "prefix": "Ext_invoke"
+        }, 
+        "Ext.pass()": {
+            "body": "Ext.pass(${1:fn}, ${2:args}, ${3:[scope]})", 
+            "prefix": "Ext_pass"
+        }, 
+        "Ext.override()": {
+            "body": "Ext.override(${1:target}, ${2:overrides})", 
+            "prefix": "Ext_override"
+        }, 
+        "Ext.getStore()": {
+            "body": "Ext.getStore(${1:store})", 
+            "prefix": "Ext_getStore"
+        }, 
+        "Ext.htmlDecode()": {
+            "body": "Ext.htmlDecode(${1:value})", 
+            "prefix": "Ext_htmlDecode"
+        }, 
+        "Ext.isDefined()": {
+            "body": "Ext.isDefined(${1:value})", 
+            "prefix": "Ext_isDefined"
+        }, 
+        "Ext.onDocumentReady()": {
+            "body": "Ext.onDocumentReady(${1:fn}, ${2:[scope]}, ${3:[options]})", 
+            "prefix": "Ext_onDocumentReady"
+        }, 
+        "Ext.isIterable()": {
+            "body": "Ext.isIterable(${1:value})", 
+            "prefix": "Ext_isIterable"
+        }, 
+        "Ext.isTextNode()": {
+            "body": "Ext.isTextNode(${1:value})", 
+            "prefix": "Ext_isTextNode"
+        }, 
+        "Ext.min()": {
+            "body": "Ext.min(${1:array}, ${2:[comparisonFn]})", 
+            "prefix": "Ext_min"
+        }, 
+        "Ext.getElementById()": {
+            "body": "Ext.getElementById(${1:id})", 
+            "prefix": "Ext_getElementById"
+        }, 
+        "Ext.getClass()": {
+            "body": "Ext.getClass(${1:object})", 
+            "prefix": "Ext_getClass"
+        }, 
+        "Ext.log()": {
+            "body": "Ext.log(${1:[options]}, ${2:[message]})", 
+            "prefix": "Ext_log"
+        }, 
+        "Ext.isFunction()": {
+            "body": "Ext.isFunction(${1:value})", 
+            "prefix": "Ext_isFunction"
+        }, 
+        "Ext.iterate()": {
+            "body": "Ext.iterate(${1:object}, ${2:fn}, ${3:[scope]})", 
+            "prefix": "Ext_iterate"
+        }, 
+        "Ext.type()": {
+            "body": "Ext.type(${1:value})", 
+            "prefix": "Ext_type"
+        }, 
+        "Ext.addNamespaces()": {
+            "body": "Ext.addNamespaces(${1:namespace})", 
+            "prefix": "Ext_addNamespaces"
+        }, 
+        "Ext.identityFn()": {
+            "body": "Ext.identityFn(${1:o})", 
+            "prefix": "Ext_identityFn"
+        }, 
+        "Ext.isArray()": {
+            "body": "Ext.isArray(${1:target})", 
+            "prefix": "Ext_isArray"
+        }, 
+        "Ext.getHead()": {
+            "body": "Ext.getHead(${1:})", 
+            "prefix": "Ext_getHead"
+        }, 
+        "Ext.deprecate()": {
+            "body": "Ext.deprecate(${1:packageName}, ${2:since}, ${3:closure}, ${4:scope})", 
+            "prefix": "Ext_deprecate"
+        }, 
+        "Ext.on()": {
+            "body": "Ext.on(${1:eventName}, ${2:[fn]}, ${3:[scope]}, ${4:[options]})", 
+            "prefix": "Ext_on"
+        }, 
+        "Ext.batchLayouts()": {
+            "body": "Ext.batchLayouts(${1:fn}, ${2:[scope]})", 
+            "prefix": "Ext_batchLayouts"
+        }, 
+        "Ext.clone()": {
+            "body": "Ext.clone(${1:item})", 
+            "prefix": "Ext_clone"
+        }, 
+        "Ext.decode()": {
+            "body": "Ext.decode(${1:json}, ${2:[safe]})", 
+            "prefix": "Ext_decode"
+        }, 
+        "Ext.callback()": {
+            "body": "Ext.callback(${1:callback}, ${2:[scope]}, ${3:[args]}, ${4:[delay]})", 
+            "prefix": "Ext_callback"
+        }, 
+        "Ext.regStore()": {
+            "body": "Ext.regStore(${1:id}, ${2:config})", 
+            "prefix": "Ext_regStore"
+        }, 
+        "Ext.partition()": {
+            "body": "Ext.partition(${1:arr}, ${2:[truth]})", 
+            "prefix": "Ext_partition"
+        }, 
+        "Ext.zip()": {
+            "body": "Ext.zip(${1:arr}, ${2:[zipper]})", 
+            "prefix": "Ext_zip"
+        }, 
+        "Ext.getBody()": {
+            "body": "Ext.getBody(${1:})", 
+            "prefix": "Ext_getBody"
+        }, 
+        "Ext.clean()": {
+            "body": "Ext.clean(${1:array})", 
+            "prefix": "Ext_clean"
+        }, 
+        "Ext.isObject()": {
+            "body": "Ext.isObject(${1:value})", 
+            "prefix": "Ext_isObject"
+        }, 
+        "Ext.ns()": {
+            "body": "Ext.ns(${1:namespaces})", 
+            "prefix": "Ext_ns"
+        }, 
+        "Ext.createWidget()": {
+            "body": "Ext.createWidget(${1:})", 
+            "prefix": "Ext_createWidget"
+        }, 
+        "Ext.unique()": {
+            "body": "Ext.unique(${1:array})", 
+            "prefix": "Ext_unique"
+        }, 
+        "Ext.getOrientation()": {
+            "body": "Ext.getOrientation(${1:})", 
+            "prefix": "Ext_getOrientation"
+        }, 
+        "Ext.getClassName()": {
+            "body": "Ext.getClassName(${1:object})", 
+            "prefix": "Ext_getClassName"
+        }, 
+        "Ext.isBoolean()": {
+            "body": "Ext.isBoolean(${1:value})", 
+            "prefix": "Ext_isBoolean"
+        }, 
+        "Ext.urlEncode()": {
+            "body": "Ext.urlEncode(${1:object}, ${2:[recursive]})", 
+            "prefix": "Ext_urlEncode"
+        }, 
+        "Ext.setVersion()": {
+            "body": "Ext.setVersion(${1:packageName}, ${2:version})", 
+            "prefix": "Ext_setVersion"
+        }, 
+        "Ext.get()": {
+            "body": "Ext.get(${1:el})", 
+            "prefix": "Ext_get"
+        }, 
+        "Ext.syncRequire()": {
+            "body": "Ext.syncRequire(${1:expressions}, ${2:[fn]}, ${3:[scope]}, ${4:[excludes]})", 
+            "prefix": "Ext_syncRequire"
+        }, 
+        "Ext.encode()": {
+            "body": "Ext.encode(${1:o})", 
+            "prefix": "Ext_encode"
+        }, 
+        "Ext.getVersion()": {
+            "body": "Ext.getVersion(${1:[packageName]})", 
+            "prefix": "Ext_getVersion"
+        }, 
+        "Ext.define()": {
+            "body": "Ext.define(${1:className}, ${2:data}, ${3:createdFn})", 
+            "prefix": "Ext_define"
+        }, 
+        "Ext.id()": {
+            "body": "Ext.id(${1:[el]}, ${2:[prefix]})", 
+            "prefix": "Ext_id"
+        }, 
+        "Ext.getScrollBarWidth()": {
+            "body": "Ext.getScrollBarWidth(${1:[force]})", 
+            "prefix": "Ext_getScrollBarWidth"
+        }
+    }
+}
