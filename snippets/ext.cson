@@ -50,3 +50,10 @@
     'Logger debug':
         'prefix': 'ldebug'
         'body': 'this.logger.debug(${1:msg});'
+
+    'Method':
+        'prefix': 'method'
+        'body': """
+            ${1:method name}: function(${2:arguments}) {
+                ${3:body}
+            },"""
