@@ -1,0 +1,22 @@
+'.source.js':
+
+    'Siesta Test':
+        'prefix': 'test'
+        'body': """
+            StartTest(function(t) {
+                ${1:body}
+            });"""
+
+    'Siesta Test Describe':
+        'prefix': 'describe'
+        'body': """
+            t.describe('${1:subject}', function(t) {
+                ${2:body}
+            });"""
+
+    'Siesta Test It':
+        'prefix': 'it'
+        'body': """
+            t.it('${1:predicate}', function(t) {
+                ${2:body}
+            });"""
